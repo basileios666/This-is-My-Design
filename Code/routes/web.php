@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
+// use App\Http\Conttrollers\
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Home');
 });
+
+Route::get('/redirect', [HomeController::class, 'redirect']);
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

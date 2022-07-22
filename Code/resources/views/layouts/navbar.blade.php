@@ -59,7 +59,7 @@
                                 <img src="assets/img/Lion.png" alt="Website logo">
                             </a>
                         </div>
-                        <!-- logo -->
+                        <!-- end logo -->
 
                         <!-- menu start -->
                         <nav class="main-menu">
@@ -72,7 +72,7 @@
                                 @guest
                                     @if (Route::has('login'))
                                         <li><a href="{{ route('login') }}" class="boxed-btn">{{ __('Login') }}</a></li>
-                                    @endif
+                                        @endif
 
                                     @if (Route::has('register'))
                                         <li><a href="{{ route('register') }}" class="bordered-btn">{{ __('Register') }}</a>
