@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8973b676fff0bffca0b28bfa171c482f",
+    "content-hash": "780a41c23b115a399a0199dc1c2f7529",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -1617,6 +1617,65 @@
                 }
             ],
             "time": "2020-06-13T08:05:20+00:00"
+        },
+        {
+            "name": "kamona/kui-laravel-jetstream",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kamona-WD/kui-laravel-jetstream.git",
+                "reference": "ed3c9e0aec576d053599b4610049c8566227f59f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kamona-WD/kui-laravel-jetstream/zipball/ed3c9e0aec576d053599b4610049c8566227f59f",
+                "reference": "ed3c9e0aec576d053599b4610049c8566227f59f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "KUI\\Jetstream\\KUIJetstreamServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "KUI\\Jetstream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kamona-WD",
+                    "email": "ak3849909@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Different UI for laravel/jetstream",
+            "homepage": "https://github.com/Kamona-WD/kui-laravel-jetstream",
+            "keywords": [
+                "alpinejs",
+                "dashboard",
+                "inertiajs",
+                "jetstream",
+                "laravel",
+                "livewire",
+                "tailwindcss",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/Kamona-WD/kui-laravel-jetstream/issues",
+                "source": "https://github.com/Kamona-WD/kui-laravel-jetstream/tree/0.2.0"
+            },
+            "time": "2022-07-12T19:57:57+00:00"
         },
         {
             "name": "larapack/doctrine-support",
