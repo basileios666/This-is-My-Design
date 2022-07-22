@@ -24,8 +24,7 @@
                                     <tr class="table-body-row">
                                         <td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a>
                                         </td>
-                                        <td class="product-image"><img src="assets/img/products/3.jpg"
-                                                alt=""></td>
+                                        <td class="product-image"><img src="assets/img/products/3.jpg" alt=""></td>
                                         <td class="product-name">Strawberry</td>
                                         <td class="product-price">$85</td>
                                         <td class="product-quantity"><input type="number" placeholder="0"></td>
@@ -43,8 +42,7 @@
                                     <tr class="table-body-row">
                                         <td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a>
                                         </td>
-                                        <td class="product-image"><img src="assets/img/products/1.jpg"
-                                                alt=""></td>
+                                        <td class="product-image"><img src="assets/img/products/1.jpg" alt=""></td>
                                         <td class="product-name">Lemon</td>
                                         <td class="product-price">$35</td>
                                         <td class="product-quantity"><input type="number" placeholder="0"></td>

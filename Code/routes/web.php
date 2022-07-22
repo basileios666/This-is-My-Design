@@ -1,8 +1,6 @@
 <?php
 
-use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,25 +13,12 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-/* =================== Routes =================== */
-Route::get('/', function (){
+Route::get('/', function () {
     return view('Home');
 });
 
-Route::get('/About', function (){
-    return view('about');
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-Route::view('/shop','shop');
-Route::view('/choice','choice');
-Route::view('/single-product','single-product');
-Route::view('/cart','cart');
-Route::view('/checkout','checkout');
-Route::view('/contact','contact');
-Route::view('/404','404');
-
-Route::view('/app','layouts.app');
-
-// Route::get('/About', [PostController::class, 'index']);
-Auth::routes();
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+require __DIR__.'/auth.php';

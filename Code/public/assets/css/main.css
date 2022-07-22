@@ -26,6 +26,9 @@ body {
 .section {
     box-sizing: border-box;
     border: 1px solid #bba14f;
+    border-left: none;
+    border-right: none;
+
 }
 
 body img {
@@ -34,7 +37,7 @@ body img {
 
 a {
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none !important;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -541,7 +544,7 @@ a.cart-btn {
 ----------------------------------------------------------------------------- */
 ul.navbar-nav li.nav-item a.nav-link,
 ul.navbar-nav li.nav-item.active a.nav-link {
-    color: #051922;
+    color: black;
 }
 
 .top-header-area {
@@ -579,7 +582,7 @@ nav.main-menu ul li {
 nav.main-menu ul li a {
     color: #fff;
     display: block;
-    padding: 25px;
+    padding: 10px;
 }
 
 nav.main-menu ul>li {
@@ -588,7 +591,7 @@ nav.main-menu ul>li {
 
 nav.main-menu ul ul.sub-menu {
     position: absolute;
-    background-color: #bbb;
+    background-color: nav;
     width: 150px;
     padding: 15px 15px;
     margin: 0;
@@ -654,7 +657,7 @@ ul.sub-menu li:last-child {
 }
 
 .mean-bar a.meanmenu-reveal {
-    background-color: #000;
+    background-color: black;
 }
 
 .main-menu-wrap {
@@ -666,7 +669,7 @@ ul.sub-menu li:last-child {
 }
 
 .mean-container a.meanmenu-reveal span {
-    background-color: #051922;
+    background-color: black;
 }
 
 .mean-container .mean-nav ul li a {
@@ -712,7 +715,7 @@ nav.main-menu ul ul.sub-menu li {
 }
 
 nav.main-menu ul ul.sub-menu li a {
-    color: #000;
+    color: black;
     padding: 8px;
     font-size: 13px;
     font-weight: 600;
@@ -751,7 +754,7 @@ nav.main-menu li a {
 }
 
 .sticky-wrapper.is-sticky .top-header-area {
-    background-color: #051922;
+    background-color: black;
     padding: 15px 0;
 }
 
@@ -873,7 +876,10 @@ a.mobile-show {
     text-transform: uppercase;
     letter-spacing: 7px;
 }
-
+.Welcome {
+    font-family: 'Great Vibes';
+    font-size: 1.5rem;
+}
 /* -----------------------------------------------------------------------------
 
 # Footer Styles
@@ -1125,8 +1131,8 @@ a.tof-btn:hover i {
 }
 
 .single-latest-news:hover {
-    -webkit-box-shadow: 0 0 15px #bbb;
-    box-shadow: 0 0 15px #bbb;
+    -webkit-box-shadow: 0 0 15px nav;
+    box-shadow: 0 0 15px nav;
 }
 
 .single-logo-item {
@@ -1623,7 +1629,7 @@ div.owl-controls,
 
 .latest-news-bg {
     box-sizing: border-box;
-    border: 1px solid #bbb;
+    border: 1px solid nav;
     height: 200px;
     background-size: cover;
     background-position: center;
