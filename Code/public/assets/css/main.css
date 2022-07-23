@@ -48,6 +48,26 @@ a:hover {
     text-decoration: none;
 }
 
+#login {
+    color: black;
+    padding: 5px 15px;
+    /* margin-left: 150px; */
+}
+#login:hover {
+    color: #bba14f;
+}
+
+#register {
+    padding: 3px 8px;
+}
+#register:hover {
+    color: black;
+}
+
+#logout {
+    padding: 5px 15px;
+}
+
 /* h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -1057,7 +1077,7 @@ a.bordered-btn {
 
 a.bordered-btn:hover {
     background-color: #bba14f;
-    color: #fff;
+    color: black;
 }
 
 ul.sub-menu a {

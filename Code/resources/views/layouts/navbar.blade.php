@@ -71,28 +71,23 @@
                                 <li><a href="/contact">Contact</a></li>
                                 @guest
                                     @if (Route::has('login'))
-                                        <li><a href="{{ route('login') }}" class="boxed-btn">{{ __('Login') }}</a></li>
+                                        <li><a href="{{ route('login') }}" class="boxed-btn" id="login">{{ __('Login') }}</a></li>
                                         @endif
 
                                     @if (Route::has('register'))
-                                        <li><a href="{{ route('register') }}" class="bordered-btn">{{ __('Register') }}</a>
+                                        <li><a href="{{ route('register') }}" class="bordered-btn" id="register">{{ __('Register') }}</a>
                                         </li>
                                     @endif
                                 @else
                                     <li class="Welcome"><a href="/userAccount">Welcome {{ Auth::user()->name }}</a></li>
                                     <li>
-                                        <a href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-            document.getElementById('logout-form').submit();">
+                                        <a href="{{ route('logout') }}"onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="boxed-btn" id="logout">
                                             {{ __('Logout') }}
                                         </a>
                                     </li>
-
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
-
-
                                 @endguest
 
 

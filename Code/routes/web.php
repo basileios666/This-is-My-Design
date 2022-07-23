@@ -18,8 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Home');
 });
+// Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/redirect', [HomeController::class, 'redirect']);
 
 
 Route::get('/dashboard', function () {
@@ -27,3 +27,5 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+Route::get('/redirect', [HomeController::class, 'redirect']);
