@@ -52,7 +52,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <p>Copyrights &copy; 2019 - <a href="/">Basil Abualoush</a>, All Rights Reserved.</p>
+                <p>Copyrights &copy; 2022 - <a href="/">Basil Abualoush</a>, All Rights Reserved.</p>
             </div>
             <div class="col-lg-6 text-right col-md-12">
                 <div class="social-icons">

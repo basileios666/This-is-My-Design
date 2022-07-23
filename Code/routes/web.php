@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 // use App\Http\Conttrollers\
 
@@ -29,3 +30,8 @@ Route::get('/dashboard', function () {
 require __DIR__.'/auth.php';
 
 Route::get('/redirect', [HomeController::class, 'redirect']);
+
+Route::get('/view_categories', [AdminController::class, 'view_categories']);
+Route::post('/add_categories', [AdminController::class, 'add_categories']);
+Route::get('/delete_category/{id}', [AdminController::class, 'delete_category']);
+
