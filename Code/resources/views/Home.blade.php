@@ -32,7 +32,8 @@
     <!-- banner -->
     <section class="shop-banner">
         <div class="container">
-            <h3 style="font-size: 100px">Sign up now for free ...</h3>
+            <br>
+            <h3 style="font-size: 120px; font-family:'Great Vibes';">Sign up now for free ...</h3>
             <br>
             <a href="/" class="cart-btn btn-lg">Sign up</a>
         </div>
