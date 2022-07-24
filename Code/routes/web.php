@@ -35,3 +35,10 @@ Route::get('/view_categories', [AdminController::class, 'view_categories']);
 Route::post('/add_categories', [AdminController::class, 'add_categories']);
 Route::get('/delete_category/{id}', [AdminController::class, 'delete_category']);
 
+Route::get('/view_products', [AdminController::class, 'view_products']);
+
+Route::post('/add_product', [AdminController::class, 'add_product']);
+Route::get('/show_products', [AdminController::class, 'show_products']);
+
+
+
