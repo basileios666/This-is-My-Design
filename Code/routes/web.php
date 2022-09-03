@@ -19,6 +19,38 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Home');
 });
+Route::get('/About', function () {
+    return view('pages.about');
+});
+Route::get('/shop', function () {
+    return view('pages.shop');
+});
+Route::get('/cart', function () {
+    return view('pages.cart');
+});
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+Route::get('/cart', function () {
+    return view('pages.cart');
+});
+
+
+Route::get('/userAccount', function () {
+    return view('pages.userAccount');
+});
+Route::get('/choice', function () {
+    return view('pages.choice');
+});
+
+Route::get('/single-product', function () {
+    return view('pages.single-product');
+});
+
+Route::get('/checkout', function () {
+    return view('pages.checkout');
+});
 // Route::get('/', [HomeController::class, 'index']);
 
 

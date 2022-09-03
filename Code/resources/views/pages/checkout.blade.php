@@ -121,7 +121,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <a href="#" class="boxed-btn">Place Order</a>
+                        <a href="/" class="boxed-btn">Place Order</a>
                     </div>
                 </div>
             </div>
